@@ -1,0 +1,12 @@
+
+
+<div>
+  <% if @name %>
+  <img src='http://placehold.it/300&text=<%= @name %>' />
+  <% else %>
+  <form action='/hello'>
+  <input type="text" name="name">
+  <input type="submit">
+  </form>
+  <% end %>
+</div>
