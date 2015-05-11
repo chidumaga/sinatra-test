@@ -1,1 +1,1 @@
-Playing with the Sinatra fraework for Ruby
+Playing with the Sinatra framework for Ruby
