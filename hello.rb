@@ -1,9 +1,8 @@
 require 'sinatra'
 
 get '/' do
-  "<div>
-    <img src='http://bit.ly/1eze8aE'>
-   </div>"
+  @name = %w(Frank Johnny Sinatra).sample
+  erb :index
 end
 
 get '/secret' do
